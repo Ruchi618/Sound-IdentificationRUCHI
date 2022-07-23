@@ -1,0 +1,49 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+      <center>
+        <div id="header">
+          <h1> Sound Identification </h1>
+          <h4> NOTE: Play different sounds like clap,snap,bell,background noise. </h4>
+        </div><br> 
+
+        <button id="startbtn" onclick="start()" > S T A R T </button> 
+        <h2> I can hear ~ </h2> <span id="hearspan"></span> 
+        <h2> Accuracy ~ </h2> <span id="accuracyspan"></span> 
+        <br> 
+
+        <div>
+          <img id="clapIMG" src="aliens-01.png" width="350" height="250">  
+          <img id="snapIMG" src="aliens-02.png" width="350" height="250">  
+          <img id="bellIMG" src="aliens-03.png" width="350" height="250">  
+          <img id="bgIMG" src="aliens-04.png" width="350" height="250">   
+        </div>
+
+        <div id="footer"> 
+          <h4> Developed by Ruchi </h4>
+        </div>
+
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+

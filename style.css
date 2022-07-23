@@ -1,0 +1,39 @@
+body 
+{
+    background: rgb(235, 189, 235);
+}
+
+#header 
+{
+    background-color: rgb(255, 255, 255);
+    padding: 10px ; 
+    margin: 0px;
+    top: 0px; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#startbtn 
+{
+    background-color: rgb(235, 164, 164); 
+    padding: 10px ;
+    width: 15%; 
+    height: 5%;
+    margin: 10px ;
+}
+
+#footer 
+{
+    background-color: rgb(255, 255, 255);
+    padding: 10px ; 
+    width: 100%;
+    margin: 0px; 
+    position: fixed ;
+    bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span 
+{
+    font-size: 20px;
+    color: blue;
+}
